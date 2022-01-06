@@ -1,7 +1,7 @@
 # R graphics
 This code was designed by Victor Jimenez. vr.jimenez.vs@gmail.com 
 
-```{r}
+```r
 #prepare the function to select#
 dat <- data.frame()
 dav <- 0
