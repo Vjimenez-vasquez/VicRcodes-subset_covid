@@ -1,4 +1,4 @@
-# VicRCodes 
+# VicRCodes - subset_covid 
 
 This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com. 
 "subset_covid" allows you to generate a subset of an original  metadata downloaded from GISAID (https://www.gisaid.org/) based on epidemiological week and country. "subset_covid" extract a percentage of genomes above a minimum frequency threshold by epidemiological week for every country included in your data. 
