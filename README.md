@@ -1,5 +1,9 @@
-# R graphics
-This code was designed by Victor Jimenez. vr.jimenez.vs@gmail.com 
+# VicRCodes 
+
+This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com 
+"subset_covid" allows you to generate a subset of an original  metadata dowloaded from GISAID (https://www.gisaid.org/) based on epidemiological week and country. "subset_covid" extract a percentage of genomes above a minimum frequency threshold for every country included in your data. 
+
+## Usage 
 
 ```r
 #prepare the function to select#
