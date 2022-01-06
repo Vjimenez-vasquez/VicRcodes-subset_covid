@@ -1,7 +1,9 @@
 # VicRCodes - subset_covid 
 
 This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com. 
-"subset_covid" allows you to generate a subset of an original  metadata downloaded from GISAID (https://www.gisaid.org/) based on epidemiological week and country. "subset_covid" extract a percentage of genomes above a minimum frequency threshold by epidemiological week for every country included in your data. 
+
+"subset_covid" allows you to generate a subset of an original  metadata downloaded or compiled from GISAID (https://www.gisaid.org/) based on epidemiological week and country. "subset_covid" extract a percentage of genomes above a minimum frequency threshold for all epidemiological weeks and countries included in your data. 
+"subset_covid" retains all genomes by epidemiological week and country if they dont exceds a minimum frequency threshold. 
 
 ## Usage 
 ```r
@@ -53,7 +55,8 @@ corresponding only to the sampled gisaid accession codes.
 
 ## Utility 
 
-Use "subset_covid" to generate a reduced and representative data for epidemiological of phylogentic analysis or in cases of limiting computational resources. 
+Use "subset_covid" to generate a reduced and representative data for epidemiological of phylogenetic analysis or in cases of limiting computational resources. 
 
+This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com.
 Vic
 
