@@ -36,7 +36,7 @@ epidemiological week exceds the minimum genome frequency threshold (minfreq). Fo
 contains 100 genomes in the epidemiological week number 40 and if we set this value to 0.1, thus 10 
 genomes will be randomly sampled.  
 - year = the year of interest 
-- label = a name to inclued in the output files. For example "delta", "omicron_2022". 
+- label = a name to include in the output files. For example "delta", "omicron_2022". 
 
 ```
 ## Output 
