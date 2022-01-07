@@ -3,8 +3,7 @@
 This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com.
 ## Intro
 Modern pandemic COVID-19 is currently studied at the molecular level by the genomic surveillance of its ethiological agent: SARS-CoV-2. Many institutions around the world has generated thounsands of SARS-CoV-2 genomes and most of them have been deposited in free data-bases like GISAID. The understanding of the evolution of SARS-CoV-2 requires the application of epidemiological, phylogenetic, phylodynamic analyses and so on. The hughe amount of genomic information makes untractable many local and fast analysis, moreover there's an asymetric generation of the genomic information: some countries upload hundreds of genomes per epidemiological week while some others no more than tens. 
-"subset_covid" allows the user to generate a subset of an original  metadata downloaded or compiled from GISAID (https://www.gisaid.org/) based on epidemiological week and country. "subset_covid" extract a percentage of samples above a minimum frequency threshold for all epidemiological weeks and for all countries included in your data. 
-"subset_covid" retains all genomes by epidemiological week and country if they does not exceds a minimum frequency threshold. 
+"subset_covid" allows the user to generate a subset  from an original metadata downloaded or compiled from GISAID (https://www.gisaid.org/) based on epidemiological week and country. "subset_covid" extract a percentage of samples above a minimum frequency threshold for all epidemiological weeks and for all countries included in your data. "subset_covid" retains all genomes by epidemiological week and country if those does not exceds a minimum frequency threshold, otherwise it extracts only a percentage. 
 
 ## Usage 
 ```r
@@ -52,5 +51,6 @@ corresponding only to the sampled gisaid accession codes.
 Use "subset_covid" to generate a reduced and representative data for epidemiological or phylogenetic analysis or in cases of limiting computational resources. 
 
 This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com.
+
 Vic
 
