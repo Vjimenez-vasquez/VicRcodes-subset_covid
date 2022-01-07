@@ -57,5 +57,5 @@ print(dim(tab))
 
 #examples#
 
-res <- subset_covid(data=data,minfreq=4,proportion=0.05,year=2021,label="omicron3")
-res
+#res <- subset_covid(data=data,minfreq=4,proportion=0.05,year=2021,label="omicron3")#
+#res#
