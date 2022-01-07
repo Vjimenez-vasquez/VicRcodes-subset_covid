@@ -34,7 +34,7 @@ res
 ```
 ## Output 
 
-"subset_covid" will generate 4 files in ".csv" format. 
+"subset_covid" will generate 4 files in ".csv" format. Examples, if we use "omicron_22" in "label" argument: 
 
 - original_frequencies_omicron_22.csv
 - filtered_frequencies_omicron_22.csv
