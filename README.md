@@ -55,7 +55,7 @@ corresponding only to the sampled gisaid accession codes.
 
 ## Utility 
 
-Use "subset_covid" to generate a reduced and representative data for epidemiological of phylogenetic analysis or in cases of limiting computational resources. 
+Use "subset_covid" to generate a reduced and representative data for epidemiological or phylogenetic analysis or in cases of limiting computational resources. 
 
 This code was designed by Victor Jimenez Vasquez - vr.jimenez.vs@gmail.com.
 Vic
