@@ -22,7 +22,7 @@ a <- read.csv("metadata_1.tsv", header=TRUE, sep="\t")
 b <- read.csv("metadata_2.tsv", header=TRUE, sep="\t")
 data <- rbind(a,b)
 
-# run "subset_covid" #
+# run "subset_covid" # 
 res <- subset_covid(data=data,minfreq=5,proportion=0.1,year=2021,label="omicron_22")
 res
 
